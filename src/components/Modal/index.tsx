@@ -32,6 +32,7 @@ const [openSnack, setOpenSnack] = useState(false)
 
     const {getLontras} = props
 
+    
     async function postLontra(){
         if(lontra.nome == "" || lontra.descricao == "" || lontra.genero == "" || lontra.localizacao == "" || lontra.nome == "" || lontra.raca == "" || lontra.url == ""){
             setMensagemErro("Todos os campos devem estar preenchidos!")
